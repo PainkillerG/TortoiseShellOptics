@@ -92,10 +92,17 @@ header .flex {
       margin-top: 9rem;
       margin-bottom: auto;
       width:100%;
+
     }
     .main-banner h1 {
       font-size:1rem;
       text-align: center;
+    }
+    ul li {
+      display:none;
+    }
+    .truncated-menu {
+      display:flex;
     }
   }
 h1 {
