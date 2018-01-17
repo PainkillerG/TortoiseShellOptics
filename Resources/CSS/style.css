@@ -143,7 +143,17 @@ h1 {
   margin-bottom: 1rem;
 }
 @media only screen and (max-width:470px){
-
+.service {
+  margin-top:3.77rem;
+  margin-bottom: 3.77rem;
+}
+.service img{
+margin-bottom: 1.54rem;
+  }
+.service div{
+  font-size:0.77rem;
+  font-family:Helvetica, sans-serif;
+}
 }
 /*Info Section*/
 .info {
