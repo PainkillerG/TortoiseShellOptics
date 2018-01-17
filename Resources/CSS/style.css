@@ -24,9 +24,12 @@ header {
 }
 }
 @media only screen and (max-width:470px) {
+nav.container{
+  width:100%;
+  padding-top:0;
+}
   header {
-    width:100%;
-    background-position: 20%;
+        background-position: 20%;
     height:17rem;
   }
 }
@@ -86,8 +89,9 @@ header .flex {
   }
   @media only screen and (max-width:470px){
     .main-banner {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-top: 9rem;
+      margin-bottom: auto;
+      width:100%;
     }
     .main-banner h1 {
       font-size:1rem;
@@ -130,6 +134,9 @@ h1 {
 .service img {
   width:5rem;
   margin-bottom: 1rem;
+}
+@media only screen and (max-width:470px){
+
 }
 /*Info Section*/
 .info {
