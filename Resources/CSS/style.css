@@ -23,7 +23,13 @@ header {
   height:22rem;
 }
 }
-
+@media only screen and (max-width:470px) {
+  header {
+    width:100%;
+    background-position: 20%;
+    height:17rem;
+  }
+}
 nav {
   padding:1rem 0;
   background-color: cadetblue;
@@ -76,6 +82,16 @@ header .flex {
     }
     .main-banner h1 {
       font-size:1.33rem;
+    }
+  }
+  @media only screen and (max-width:470px){
+    .main-banner {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .main-banner h1 {
+      font-size:1rem;
+      text-align: center;
     }
   }
 h1 {
